@@ -1,0 +1,63 @@
+# ===== Unity =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Pliki generowane przez IDE
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crashe i raporty
+sysinfo.txt
+crashlytics-buildid.txt
+mono_crash.*
+
+# Buildy
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Plan Burst / Addressables (generowane)
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== Projekt =====
+# Paczki z Unity Asset Store: licencja nie pozwala ich publikować w publicznym repo.
+/[Aa]ssets/ThirdParty/
+/[Aa]ssets/ThirdParty.meta
+
+# Wyniki testów uruchamianych z konsoli
+wyniki*.xml
+TestResults*.xml
+
+# System
+.DS_Store
+Thumbs.db
