@@ -28,3 +28,13 @@ Jak AI było używane przy tworzeniu gry. Jeden wpis na każdą funkcję lub wi�
 - **Co AI zrobiło dobrze:** podział na MVP i rozszerzenia, uproszczenie ścian do modułów na siatce, ostrzeżenie o licencjach Asset Store.
 - **Co trzeba było poprawić ręcznie:**
 - **Efekt:** `docs/GDD.md`, `CLAUDE.md`, `.gitignore`, `.gitattributes`, `LICENSE`, `README.md`.
+
+## 2026-11-13 — Projekt Unity, kontroler FPP, siatka i GridCursor
+
+- **Cel:** projekt Unity w repo, chodzenie w pierwszej osobie, siatka 1 × 1 m na działce 50 × 50 m, podświetlenie kratki i krawędzi, na które patrzy gracz.
+- **Narzędzie:** Claude Code.
+- **Kluczowe prompty:** sklonowanie repo i przeczytanie `CLAUDE.md` i GDD, „mam projekt zrobiony”, akceptacja planu z rozmiarem działki 50 × 50 m.
+- **Co AI zrobiło dobrze:** przeniosło szablon Unity do repo i posprzątało pliki przykładowe; rozdzieliło czystą matematykę siatki (`GridMath`, osobny `.asmdef`, testy EditMode) od komponentów sceny; zamiast ręcznie edytować plik `.unity` napisało skrypt edytora `HouseBuilder → Utwórz scenę testową`, który sam buduje scenę.
+- **Co trzeba było poprawić ręcznie:** push na GitHuba wymagał jednorazowego logowania w przeglądarce. Unity przy pierwszym otwarciu poprosiło o aktualizację materiałów URP (zaakceptowane). Jednorazowy skrypt Unity Hub (`HubForceResolve.cs`) nie usunął się sam, więc trzeba go było skasować.
+- **Czas:** około 1 h.
+- **Commit:** `feat: kontroler FPP, siatka działki i GridCursor`.

@@ -90,7 +90,7 @@ docs/
 
 ## Postęp (MVP do 20 grudnia 2026)
 
-- [ ] Kontroler FPP, siatka, GridCursor
+- [x] Kontroler FPP, siatka, GridCursor (scena testowa: menu `HouseBuilder → Utwórz scenę testową`)
 - [ ] Fundament (dodaj/odejmij prostokąt, linie pomocnicze, wymiary)
 - [ ] Ściany zewnętrzne z obrysu, ściany wewnętrzne, gumka, undo/redo
 - [ ] Okna i drzwi, drugie piętro, schody
