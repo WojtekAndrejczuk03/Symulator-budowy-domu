@@ -61,3 +61,4 @@ TestResults*.xml
 # System
 .DS_Store
 Thumbs.db
+*.slnx
